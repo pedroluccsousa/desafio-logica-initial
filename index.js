@@ -1,1 +1,2 @@
-console.log("Meu primeiro code");
+console.log("Pedro lucas");
+
