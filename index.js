@@ -1,7 +1,7 @@
 //Desafio de código n°1
 
 //Variáveis
-let  hero1 = 8005;
+let  hero1XP = 8005;
 let heroLevels = [
     {level: 9000, message: "Seu herói é Mestre"},
     {level: 8000, message:"Seu herói é Diamante"},
@@ -13,7 +13,7 @@ let heroMessage = "Seu herói é grão-mestre"; //Padrão
 
 //Condicionais
 for (let i = 0; i < heroLevels.length; i++) {
-    if (hero1 >= heroLevels[i].level){
+    if (hero1XP >= heroLevels[i].level){
         heroMessage= heroLevels[i].message;
         break;
     }
